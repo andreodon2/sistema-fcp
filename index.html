@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de controle de Digitalização - Home</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="./style/style.css">
+    <style>
+        .cabecalho {
+            display: flex;
+            justify-content: center;
+        }
+
+        .consulta {
+            display: flex;
+            justify-content: center;
+        }
+
+        h3 {
+            text-align: center;
+            padding-bottom: 1em;
+        }
+
+        form {
+            font-size: 1.5em;
+            font-style: "Arial", sans-serif;
+        }
+
+        .nome {
+            width: 50em;
+            height: 1.5em;
+        }
+
+        .consultar {
+            margin-top: 1em;
+            padding: 1em;
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="consulta.html">Consulta</a></li>
+        </ol>
+    </nav>
+    <header class="cabecalho">
+        <img src="./img/brasao.png" alt="Brasão oficial do Governo do Estado do Pará">
+        <h1 class="titulo">SISTEMA DE CONTROLE DE DIGITALIZAÇÃO E INCLUSÃO DE LIVROS ON-LINE</h1>
+        <img src="./img/LOGO_BPAV-CALIOPE1-SEM FUNDO.png" alt="Logo oficial da Biblioteca Artur Viana">
+    </header>
+
+    <h3>Consulta de Livros</h3>
+    <div class="consulta">
+        <form action="#" method="get">
+            Nome: <input type="text" placeholder="Nome do Livro" class="nome"><br/>
+            Data de recebimento: <input type="date" name="#" id="#" class="data"><br/>
+            Data de inclusão no site: <input type="date" name="#" id="#" class="site"><br/>
+            <input type="button" value="Consultar" class="consultar">
+        </form>
+    </div>
+</body>
+</html>
